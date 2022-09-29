@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">OPSC</string>
+
+    //underlined strings for the select tour page
+    <string name="label1_SelectTourPage"><u>All Tours Available in The City:</u></string>
+    <string name="label2_SelectTourPage"><u>Tours Based on your Landmark Type:</u></string>
+
+    //underlined heading in the add landmarks page
+    <string name="add_landmarkpage"><u>ADD LANDMARK</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
