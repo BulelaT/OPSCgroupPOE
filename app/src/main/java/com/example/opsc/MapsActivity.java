@@ -1,12 +1,20 @@
 package com.example.opsc;
 
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -15,6 +23,8 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 
 import org.json.JSONObject;
 
@@ -31,18 +41,76 @@ import java.util.List;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    SupportMapFragment mapFragment;
     ArrayList markerPoints= new ArrayList();
+
+    FusedLocationProviderClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+        mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        //Get users current location Code
+        //https://www.youtube.com/watch?v=p0PoKEPI65o
+        //====================================================================================
+        client = LocationServices.getFusedLocationProviderClient(this);
+
+        if(ActivityCompat.checkSelfPermission(MapsActivity.this,
+                Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
+            //When permission is granted call get current location method
+            getCurrentLocation();
+        }else{
+            //When permission is denied request permission
+            ActivityCompat.requestPermissions(MapsActivity.this,
+                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 44);
+        }
+        //====================================================================================
     }
 
+    //Get users current location
+    //https://www.youtube.com/watch?v=p0PoKEPI65o
+    //====================================================================================
+    private void getCurrentLocation(){
+        @SuppressLint("MissingPermission") Task<Location> task = client.getLastLocation();
+        task.addOnSuccessListener((new OnSuccessListener<Location>() {
+            @Override
+            public void onSuccess(Location location) {
+                if(location != null){
+                    mapFragment.getMapAsync(new OnMapReadyCallback() {
+                        @Override
+                        public void onMapReady(@NonNull GoogleMap googleMap) {
+                            LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
+                            //Create marker options
+                            MarkerOptions options = new MarkerOptions().position(latLng).title("I am there");
+                            //Zoom map
+                            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10));
+                            //Add marker on map
+                            googleMap.addMarker(options);
+                        }
+                    });
+                }
+            }
+        }));
+        //====================================================================================
+    }
+
+    //Get users current location
+    //https://www.youtube.com/watch?v=p0PoKEPI65o
+    @SuppressLint("MissingSuperCall")
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        if (requestCode == 44) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                //When permission granted call the get current location method
+                getCurrentLocation();
+            }
+        }
+    }
 
     /**
      * Manipulates the map once available.
