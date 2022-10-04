@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".LoginFragment">
+
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="51dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="273dp"
+        android:text="Username"
+        android:textColor="#9da15c"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="154dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="381dp"
+        android:fontFamily="sans-serif"
+        android:text="Password"
+        android:textColor="#9da15c"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/et_style"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="08dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:layout_width="113dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Login"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="207dp"
+        android:layout_height="149dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="621dp"
+        android:layout_marginEnd="-11dp"
+        android:layout_marginBottom="-32dp"
+        android:src="@drawable/logo2" />
+
+</RelativeLayout>
