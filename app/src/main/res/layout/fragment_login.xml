@@ -12,8 +12,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="45dp"
         android:src="@drawable/logo" />
 
     <TextView
@@ -34,8 +34,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="179dp"
-        android:layout_marginTop="224dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="229dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/your_string_here2"
         android:textColor="#9da15c"
@@ -47,7 +47,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="201dp"
+        android:layout_marginStart="155dp"
         android:layout_marginTop="281dp"
         android:text="LOGIN"
         android:textColor="#9da15c"
