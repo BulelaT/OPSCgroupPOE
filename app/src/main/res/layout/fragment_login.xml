@@ -7,13 +7,13 @@
     tools:context=".LoginFragment">
 
     <ImageView
-        android:layout_width="156dp"
-        android:layout_height="177dp"
+        android:layout_width="142dp"
+        android:layout_height="153dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="51dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="36dp"
         android:src="@drawable/logo" />
 
     <TextView
@@ -21,11 +21,37 @@
         android:layout_height="34dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="273dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="366dp"
         android:text="Username"
         android:textColor="#9da15c"
         android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/your_string_here2"
+        android:textColor="#9da15c"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="281dp"
+        android:text="LOGIN"
+        android:textColor="#9da15c"
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/etUsername"
@@ -34,11 +60,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="23dp"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="410dp"
         android:layout_marginEnd="154dp"
         android:background="@drawable/et_style"
         android:ems="10"
-        android:hint="Username"
+
         android:inputType="textEmailAddress"
         android:maxLines="1"
         android:padding="8dp" />
@@ -48,8 +74,8 @@
         android:layout_height="34dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="381dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="472dp"
         android:fontFamily="sans-serif"
         android:text="Password"
         android:textColor="#9da15c"
@@ -57,15 +83,14 @@
 
     <EditText
         android:id="@+id/etLoginPassword"
-        android:layout_width="241dp"
+        android:layout_width="278dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="23dp"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="510dp"
         android:background="@drawable/et_style"
         android:drawablePadding="12dp"
         android:ems="10"
-        android:hint="Password"
         android:inputType="textPassword"
         android:maxLines="1"
         android:paddingLeft="08dp"
@@ -78,8 +103,8 @@
         android:layout_height="79dp"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="340dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="25dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/round_button"
         android:gravity="center"
@@ -95,10 +120,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="222dp"
-        android:layout_marginTop="621dp"
-        android:layout_marginEnd="-11dp"
-        android:layout_marginBottom="-32dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="662dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="-45dp"
         android:src="@drawable/logo2" />
 
 </RelativeLayout>
