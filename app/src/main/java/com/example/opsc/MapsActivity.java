@@ -41,42 +41,53 @@ import java.util.List;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    SupportMapFragment mapFragment;
-    ArrayList markerPoints= new ArrayList();
+    ArrayList markerPoints = new ArrayList();
 
+    SupportMapFragment mapFragment;
     FusedLocationProviderClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
 
         //Get users current location Code
         //https://www.youtube.com/watch?v=p0PoKEPI65o
         //====================================================================================
         client = LocationServices.getFusedLocationProviderClient(this);
 
-        if(ActivityCompat.checkSelfPermission(MapsActivity.this,
-                Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
+        if (ActivityCompat.checkSelfPermission(this,
+                Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             //When permission is granted call get current location method
             getCurrentLocation();
-        }else{
+        } else {
             //When permission is denied request permission
-            ActivityCompat.requestPermissions(MapsActivity.this,
+            ActivityCompat.requestPermissions(this,
                     new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 44);
         }
         //====================================================================================
+
     }
 
     //Get users current location
     //https://www.youtube.com/watch?v=p0PoKEPI65o
     //====================================================================================
-    private void getCurrentLocation(){
-        @SuppressLint("MissingPermission") Task<Location> task = client.getLastLocation();
+    private void getCurrentLocation() {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        Task<Location> task = client.getLastLocation();
         task.addOnSuccessListener((new OnSuccessListener<Location>() {
             @Override
             public void onSuccess(Location location) {
