@@ -47,16 +47,172 @@
             android:textSize="20dp"
             android:textStyle="bold" />
 
+        <!-- Grid layout for all tours available in the city card views -->
+
+        <GridLayout
+            android:id="@+id/cityGrid"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="10dp">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="#9DA15C">
+                    <ImageView
+                        android:src="@drawable/cityscape"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="18dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="#9DA15C">
+                    <ImageView
+                        android:src="@drawable/cityscape"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="18dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 3 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="#9DA15C">
+                <ImageView
+                    android:src="@drawable/cityscape"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"/>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+
         <TextView
             android:id="@+id/label2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="160dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
             android:padding="10dp"
             android:text="@string/label2_SelectTourPage"
             android:textColor="#9DA15C"
             android:textSize="20dp"
             android:textStyle="bold" />
+
+        <!-- Grid layout for tours based on landmark type card views -->
+
+        <GridLayout
+            android:id="@+id/landmarkTypeGrid"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="10dp">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="#9DA15C">
+                <ImageView
+                    android:src="@drawable/cityscape"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="#9DA15C">
+                <ImageView
+                    android:src="@drawable/cityscape"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 3 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="#9DA15C">
+                <ImageView
+                    android:src="@drawable/cityscape"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"/>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
 
 
     </LinearLayout>

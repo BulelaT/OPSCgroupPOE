@@ -3,16 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmark_background.xml" value="0.1565" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmark_icon.xml" value="0.176" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmarktextbox.xml" value="0.1595" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/round_button_landmarkpage.xml" value="0.1595" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/select_tour_background.xml" value="0.153" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_add_landmark.xml" value="0.14791666666666667" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_select_tour.xml" value="0.184375" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/select_tour_ui.xml" value="0.163671875" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/menu/bottom_navigation_view.xml" value="0.184375" />
+        <entry key="..\:/OPSCgroupPOE/app/src/main/res/drawable/city_icon.xml" value="0.2275" />
+        <entry key="..\:/OPSCgroupPOE/app/src/main/res/drawable/city_page_search_box.xml" value="0.1705" />
+        <entry key="..\:/OPSCgroupPOE/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/OPSCgroupPOE/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/OPSCgroupPOE/app/src/main/res/layout/fragment_city_page.xml" value="0.25" />
+        <entry key="..\:/OPSCgroupPOE/app/src/main/res/layout/fragment_navigation_page.xml" value="0.25" />
+        <entry key="..\:/OPSCgroupPOE/app/src/main/res/layout/fragment_select_tour.xml" value="0.264" />
       </map>
     </option>
   </component>
