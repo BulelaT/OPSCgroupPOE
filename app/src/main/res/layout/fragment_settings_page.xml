@@ -12,7 +12,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingRight="25dp"
-        android:paddingLeft="25dp">
+        android:paddingLeft="25dp"
+        android:background="@drawable/settings_picture">
 
         <LinearLayout
             android:layout_width="match_parent"
