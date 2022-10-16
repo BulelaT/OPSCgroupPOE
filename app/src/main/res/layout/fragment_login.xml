@@ -29,15 +29,15 @@
         android:textSize="16sp" />
 
     <TextView
-        android:layout_width="164dp"
+        android:layout_width="wrap_content"
         android:layout_height="34dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="148dp"
+        android:layout_marginStart="108dp"
         android:layout_marginTop="229dp"
         android:fontFamily="sans-serif-medium"
-        android:text="@string/your_string_here2"
+        android:text="GET STARTED!"
         android:textColor="#9da15c"
         android:textSize="30sp" />
 
@@ -99,7 +99,7 @@
         android:paddingBottom="8dp" />
 
     <Button
-        android:layout_width="113dp"
+        android:layout_width="80dp"
         android:layout_height="79dp"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="15dp"
@@ -110,7 +110,7 @@
         android:gravity="center"
         android:padding="15dp"
         android:text="Login"
-        android:textSize="16dp" />
+        android:textSize="12dp" />
 
     <ImageView
         android:layout_width="207dp"

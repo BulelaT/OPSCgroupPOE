@@ -20,16 +20,16 @@
 
     <TextView
         android:id="@+id/TextView2"
-        android:layout_width="168dp"
+        android:layout_width="wrap_content"
         android:layout_height="41dp"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="175dp"
         android:layout_marginEnd="112dp"
         android:fontFamily="sans-serif-medium"
-        android:text="@string/ul_string_here"
+        android:text="GET STARTED!"
         android:textColor="#9da15c"
-        android:textSize="20sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:layout_width="168dp"
@@ -39,7 +39,7 @@
         android:layout_marginEnd="95dp"
         android:text="Create Profile"
         android:textColor="#9da15c"
-        android:textSize="20sp" />
+        android:textSize="25sp" />
 
     <TextView
         android:layout_width="164dp"

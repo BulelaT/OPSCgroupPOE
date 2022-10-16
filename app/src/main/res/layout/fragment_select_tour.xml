@@ -42,7 +42,7 @@
             android:layout_marginLeft="0dp"
             android:layout_marginTop="30dp"
             android:padding="10dp"
-            android:text="@string/label1_SelectTourPage"
+            android:text="All Tours Available in the City:"
             android:textColor="#9DA15C"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -125,19 +125,21 @@
         </GridLayout>
 
 
+        <!-- Grid layout for tours based on landmark type card views -->
+
         <TextView
             android:id="@+id/label2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
             android:padding="10dp"
-            android:text="@string/label2_SelectTourPage"
+            android:text="Tours Based on your Landmark Type:"
             android:textColor="#9DA15C"
             android:textSize="20dp"
             android:textStyle="bold" />
-
-        <!-- Grid layout for tours based on landmark type card views -->
 
         <GridLayout
             android:id="@+id/landmarkTypeGrid"
