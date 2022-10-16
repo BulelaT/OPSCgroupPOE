@@ -3,28 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.164" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmark_background.xml" value="0.164" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmark_icon.xml" value="0.164" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmarktextbox.xml" value="0.164" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/dashboard_picture.xml" value="0.164" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/round_button.xml" value="0.163" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/select_tour_background.xml" value="0.164" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/tour_information_background.xml" value="0.164" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/activity_maps.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_add_landmark.xml" value="0.184375" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_city_page.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_dashboard.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_login.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_register.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_select_tour.xml" value="0.184375" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_settings_page.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_tour_information.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/layout_dashboard.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/layout_tour_information.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/menu/bottom_navigation_view.xml" value="0.184375" />
+        <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/fragment_dashboard.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/fragment_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/fragment_register.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
