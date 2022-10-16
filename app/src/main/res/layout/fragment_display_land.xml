@@ -9,16 +9,16 @@
 
     <TextView
         android:id="@+id/textviewLand"
-        android:layout_width="204dp"
-        android:layout_height="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="255dp"
         android:layout_marginEnd="103dp"
         android:fontFamily="sans-serif-medium"
-        android:text="@string/your_string_here3"
+        android:text="VIEW LANDMARKS"
         android:textColor="#9da15c"
-        android:textSize="20sp" />
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/Textview5"
@@ -62,7 +62,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="315dp"
         android:layout_marginEnd="11dp"
-        android:divderWidth="5dp"
         android:padding="15dp"
         tools:listitem="@layout/display_landmarks_listview">
 
