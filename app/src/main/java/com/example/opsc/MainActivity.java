@@ -1,6 +1,7 @@
 package com.example.opsc;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
         // The following listener will redirect the user to the dashboard ()
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), Dashboard.class);
-                view.getContext().startActivity(intent);
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.MainContainer,new Dashboard()).commit();
             }
         });
 
