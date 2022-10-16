@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">OPSC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ul_string_here"><u>GET STARTED!</u></string>
+
+    <string name="your_string_here2"><u>WELCOME</u></string>
+
 </resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".DisplayLandFragment">
+
+    <TextView
+        android:id="@+id/textviewLand"
+        android:layout_width="204dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="103dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/your_string_here3"
+        android:textColor="#9da15c"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Textview5"
+        android:layout_width="296dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="48dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="All landmarks that were added by you or added to favorites can be viewed down below:"
+        android:textColor="#E7E7E7"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="404dp"
+        android:layout_height="478dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-153dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/logo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-104dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_weight="10">
+
+    <ListView
+        android:id="@+id/landmarkListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="11dp"
+        android:divderWidth="5dp"
+        android:padding="15dp"
+        tools:listitem="@layout/display_landmarks_listview">
+
+    </ListView>
+</LinearLayout>
+
+
+
+</RelativeLayout>
