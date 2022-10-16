@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.164" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmark_background.xml" value="0.164" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmark_icon.xml" value="0.164" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/add_landmarktextbox.xml" value="0.164" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/dashboard_picture.xml" value="0.164" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/round_button.xml" value="0.163" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/select_tour_background.xml" value="0.164" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/tour_information_background.xml" value="0.164" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_dashboard.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_login.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_register.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_settings_page.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_tour_information.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/layout_dashboard.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/layout_tour_information.xml" value="0.23007246376811594" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
