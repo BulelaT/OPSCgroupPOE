@@ -3,17 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/activity_maps.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/fragment_add_landmark.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/fragment_dashboard.xml" value="0.30052083333333335" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/fragment_login.xml" value="0.30052083333333335" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/fragment_select_tour.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/fragment_settings_page.xml" value="0.30052083333333335" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/fragment_tour_information.xml" value="0.30052083333333335" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/layout_dashboard.xml" value="0.30052083333333335" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/layout/layout_tour_information.xml" value="0.30052083333333335" />
-        <entry key="..\:/Users/mfezi/OneDrive/Documents/School/Semester 2/Open Source Coding/OPSCgroupPOE/app/src/main/res/menu/bottom_navigation_view.xml" value="0.14375" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/drawable/dashboard_picture.xml" value="0.164" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/activity_main.xml" value="0.12107396149949341" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_dashboard.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_settings_page.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_tour_information.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/layout_dashboard.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/layout_tour_information.xml" value="0.23007246376811594" />
       </map>
     </option>
   </component>
