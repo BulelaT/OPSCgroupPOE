@@ -27,8 +27,7 @@ public class MainActivity extends AppCompatActivity {
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.MainContainer,new Dashboard()).commit();
+                getSupportFragmentManager().beginTransaction().add(R.id.frameLayout, new Dashboard()).commit();
             }
         });
 
