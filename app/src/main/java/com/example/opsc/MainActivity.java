@@ -1,6 +1,7 @@
 package com.example.opsc;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintSet;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
@@ -22,12 +23,13 @@ public class MainActivity extends AppCompatActivity {
         // Assigning buttons ()
         LoginButton = (Button) findViewById(R.id.loginFrag);
         RegisterButton = (Button) findViewById(R.id.registerFrag);
+        getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, new Dashboard()).commit();
 
         // The following listener will redirect the user to the dashboard ()
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().add(R.id.frameLayout, new Dashboard()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, new Dashboard()).commit();
             }
         });
 

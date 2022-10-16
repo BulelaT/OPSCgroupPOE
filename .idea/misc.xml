@@ -3,12 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/activity_for_fragment_name.xml" value="0.2234375" />
         <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/fragment_dashboard.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/fragment_login.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/fragment_register.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/27796/Downloads/OPSC7312_POE/app/src/main/res/layout/move_fragment_to_another_page.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/chloe/Documents/Code/AStudio/OPSCgroupPOE/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
       </map>
     </option>
   </component>
