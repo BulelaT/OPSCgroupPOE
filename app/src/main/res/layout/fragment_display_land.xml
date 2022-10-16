@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context=".MainActivity">
+    tools:context=".DisplayLandFragment">
 
     <TextView
         android:id="@+id/textviewLand"
@@ -48,20 +48,27 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="-104dp" />
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_weight="10">
+
     <ListView
-        android:id="@+id/list"
-        android:layout_width="341dp"
-        android:layout_height="257dp"
+        android:id="@+id/landmarkListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="355dp"
-        android:layout_marginEnd="37dp"
-        android:background="@drawable/back"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="11dp"
         android:divderWidth="5dp"
-        android:divider="#FFF6F6"
-        android:dividerHeight="5dp"
-        android:footerDividersEnabled="false"
-        android:headerDividersEnabled="false" />
+        android:padding="15dp"
+        tools:listitem="@layout/display_landmarks_listview">
+
+    </ListView>
+</LinearLayout>
+
 
 
 </RelativeLayout>
